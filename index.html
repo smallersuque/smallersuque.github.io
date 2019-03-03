@@ -12,7 +12,7 @@ window.onbeforeunload= function(){
     if (sessionStorage.getItem("urmom") == "1") {
         alert("Yo, you're closing me. Please don't, I have a family. Oh, you're gonna do it. Ok bye lol");
     }
-    sessionStorage.setItem("urmom", (parseInt(sessionStorage.getItem("urmom"))1).toString());
+    sessionStorage.setItem("urmom", (parseInt(sessionStorage.getItem("urmom"))-1).toString());
 };
 </script>
 </body>
