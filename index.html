@@ -9,6 +9,7 @@ if (sessionStorage.getItem("urmom") == null) {
     sessionStorage.setItem("urmom", (parseInt(sessionStorage.getItem("urmom"))+1).toString());
 }
 window.onbeforeunload= function(){
+    alert("god help us all");
     if (sessionStorage.getItem("urmom") == "1") {
         alert("Yo, you're closing me. Please don't, I have a family. Oh, you're gonna do it. Ok bye lol");
     }
